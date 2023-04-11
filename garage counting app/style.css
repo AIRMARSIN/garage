@@ -1,0 +1,66 @@
+
+#app{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 50%;
+    height: 90%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    background-image: url(./car1.jpg);
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43389F', endColorstr='#4ec6ca',GradientType=1 ); 
+    font-family: 'Courier New', 'Courier', sans-serif;
+    color: #fff;
+    
+}
+#count{
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+   
+}
+button{
+
+    height: 7vh;
+    background: none;
+    border-radius: 10px;
+    margin-top: 5%;
+    border: none;
+}
+
+
+#increase{
+    background-color: darkgreen;
+    width: 80%;
+}
+
+#save{
+    background-color: darkred;
+    width: 80%;
+    font-size: 100%;
+}
+#reset{
+    background-color: darkgrey;
+    width: 80%;
+    font-size: 100%;
+}
+#save-el{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#data{
+    background-color: rgba(0,0,0,0.9);
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+#data p{
+    width: 50%;
+    margin: auto;
+}
